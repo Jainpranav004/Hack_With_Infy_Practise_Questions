@@ -60,6 +60,6 @@
 
 package Easy_Quetions;
 
-public class Coin {
+public class Coins {
 
 }
