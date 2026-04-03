@@ -56,10 +56,55 @@
 // Step 1: Flip A[1] -> A = [1,0,0]. Max valid subarray = entire array. Cost = 3.
 // Step 2: Flip A[2] -> A = [1,1,0]. Max valid subarray = entire array (one transition 1->0). Cost = 3.
 // Product = 3 x 3 = 9.
-
-
 package Easy_Quetions;
+import java.io.*;
+import java.util.*;
 
-public class Coins {
+//Brute Force--------------------------------------------------------------------------
+//public class Coins {
 
+//    static final int MOD = 1_000_000_007;
+//    public static void main(String[] args) throws IOException {
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        int N = Integer.parseInt(br.readLine().trim());
+//        int M = Integer.parseInt(br.readLine().trim());
+//
+//        int[] A = new int[N];
+//        long product = 1;
+//
+//        for (int i = 0; i < M; i++) {
+//            int idx = Integer.parseInt(br.readLine().trim()) - 1;
+//            A[idx] = 1 - A[idx];
+//            int cost = getMaxValidSubarray(A);
+//            product = (product * cost) % MOD;
+//        }
+//        System.out.println(product);
+//    }
+//
+//    static int getMaxValidSubarray(int[] A) {
+//        int n = A.length;
+//        int maxLen = 1;
+//        for (int i = 0; i < n; i++) {
+//            int transitions = 0;
+//            for (int j = i + 1; j < n; j++) {
+//                if (A[j] != A[j - 1]) transitions++;
+//                if (transitions > 1) break;
+//                maxLen = Math.max(maxLen, j - i + 1);
+//            }
+//        }
+//        return maxLen;
+//    }
+//}
+
+//Optimal ------------------------------------------------------------------------------
+
+public class Coins{
+     static void main(String[] args) throws IOException {
+             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+             StringTokenizer st = new StringTokenizer(br.readLine());
+             BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+             int N = Integer.parseInt(st.nextToken());
+
+             
+     }
 }
