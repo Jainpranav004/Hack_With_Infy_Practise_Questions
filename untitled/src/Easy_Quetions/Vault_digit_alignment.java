@@ -51,7 +51,7 @@
 
 package Easy_Quetions;
 
-public class Valut_digit_alignment {
+public class Vault_digit_alignment {
     static void main(String[] args) {
         int N = 5;
         int[] A = {9,0,1,2};
@@ -65,7 +65,6 @@ public class Valut_digit_alignment {
                 cost = (target-A[i]+10)%10;
                count+=cost;
             }
-
 
             target = Math.max(target, A[i]);
         }

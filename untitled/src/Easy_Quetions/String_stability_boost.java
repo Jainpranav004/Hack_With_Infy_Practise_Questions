@@ -50,7 +50,7 @@ package Easy_Quetions;
 
 import java.util.HashSet;
 
-public class String_stability {
+public class String_stability_boost {
 
     static void main(String[] args) {
         String s = "abc";
