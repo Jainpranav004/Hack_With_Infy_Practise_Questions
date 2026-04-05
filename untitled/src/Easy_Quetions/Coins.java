@@ -100,10 +100,18 @@ import java.util.*;
 
 public class Coins{
      static void main(String[] args) throws IOException {
-             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-             StringTokenizer st = new StringTokenizer(br.readLine());
-             BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-             int N = Integer.parseInt(st.nextToken());
+         int[] A = {3,1,1};
+         int[] B = {1,2,3};
+         long mod = 1000000007;
+
+
+         long totalCoins = 0;
+         int n = A.length;
+         for(int i=0; i<n; i++){
+             totalCoins = (totalCoins + (A[i] * (1L << B[i]))%mod)%mod;
+         }
+
+         System.out.println(totalCoins);
 
              
      }

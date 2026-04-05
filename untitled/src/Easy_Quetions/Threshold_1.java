@@ -49,6 +49,7 @@ public class Threshold_1 {
      static void main(String[] args) throws IOException {
              BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
+
              int N = Integer.parseInt(br.readLine());
              int X = Integer.parseInt(br.readLine());
              int K = Integer.parseInt(br.readLine());

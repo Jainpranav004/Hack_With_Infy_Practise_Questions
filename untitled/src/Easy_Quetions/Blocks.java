@@ -106,6 +106,7 @@ public class Blocks {
      }
 
 
+
      public static long modPow(long base, long exp){
          long result = 1;
          while(exp>0){

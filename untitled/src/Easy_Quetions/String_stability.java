@@ -57,6 +57,7 @@ public class String_stability {
         if(s.length() < 2) System.out.println(0);
         int max = 0;
 
+
         for(int i =0 ; i<s.length()-1;i++){
             char[] arr = s.toCharArray();
             char temp = arr[i];

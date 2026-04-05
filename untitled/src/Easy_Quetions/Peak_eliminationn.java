@@ -76,6 +76,7 @@ public class Peak_eliminationn {
              BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
              StringTokenizer st = new StringTokenizer(br.readLine());
 
+
              int N = Integer.parseInt(st.nextToken());
              ArrayList<Integer> A = new ArrayList<>();
 

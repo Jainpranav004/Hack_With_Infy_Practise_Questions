@@ -97,8 +97,9 @@ public class total_rental_Maximisation {
         Integer[] P = {33,39,2,36,13};
         Integer[] R = {46,42,45,35,27,16};
 
-        Arrays.sort(P, Collections.reverseOrder());
-        Arrays.sort(R, Collections.reverseOrder());
+
+        Arrays.sort(P);
+        Arrays.sort(R);
         int cnt = 0;
 
         int i =0; int j =0;
